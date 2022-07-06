@@ -1,0 +1,81 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "tsx": true,
+    "ts": true,
+    "useJSXTextNode": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jest-dom/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "jest-dom",
+    "testing-library",
+    "react-hooks",
+    "sonarjs"
+  ],
+  "rules": {
+    "no-console": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { "ignoreRestSiblings": true }],
+    "react-hooks/rules-of-hooks": "error",
+    "jest-dom/prefer-in-document": "off",
+    "react-hooks/exhaustive-deps": "error",
+    "react/prop-types": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      // Regex for Component Factory to use,
+      // default to "createReactClass"
+      "pragma": "React",
+      // Pragma to use, default to "React"
+      "version": "detect",
+      // React version. "detect" automatically picks the version you have installed.
+      // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
+      // default to latest and warns if missing
+      // It will default to "detect" in the future
+      "flowVersion": "0.53"
+      // Flow version
+    },
+    "propWrapperFunctions": [
+      // The names of any function used to wrap propTypes, e.g. `forbidExtraProps`. If this isn't set, any propTypes wrapped in a function will be skipped.
+      "forbidExtraProps",
+      {
+        "property": "freeze",
+        "object": "Object"
+      },
+      {
+        "property": "myFavoriteWrapper"
+      }
+    ],
+    "linkComponents": [
+      // Components used as alternatives to <a> for linking, eg. <Link to={ url } />
+      "Hyperlink",
+      {
+        "name": "Link",
+        "linkAttribute": "to"
+      }
+    ]
+  }
+}

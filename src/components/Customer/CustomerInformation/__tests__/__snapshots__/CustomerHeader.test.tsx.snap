@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerHeader renders correctly 1`] = `
+<div
+  data-testid="CustomerHeaderTestId"
+>
+  <div
+    className=""
+  >
+    <div
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      component="h2"
+      data-testid="Typography"
+      variant="h5"
+    >
+      Customer Information
+    </div>
+    <div>
+      <div
+        data-testid="Typography"
+        display="inline"
+        variant="body1"
+      >
+        Customer Name
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className=""
+          data-testid="customerNameTestId"
+        >
+          <div
+            data-testid="Typography"
+            display="inline"
+            variant="body1"
+          >
+            * 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <div>
+      <div
+        data-testid="Typography"
+        display="inline"
+        variant="body1"
+      >
+        Customer Alerts 
+        
+      </div>
+      <div
+        data-testid="customerAlertTestId"
+      />
+    </div>
+    <div>
+      <div>
+        <div
+          color="primary"
+          data-testid="assignAlertButtonTestId"
+          onClick={[Function]}
+          size="large"
+          variant="contained"
+        >
+          Assign Alert
+        </div>
+      </div>
+      <div>
+        <div
+          classes={
+            Object {
+              "paper": undefined,
+            }
+          }
+          data-testid="RACCard"
+          defaultValue=""
+          inputLabel="Route"
+          isDisabled={false}
+          loading={false}
+          onChange={[Function]}
+          options={Array []}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CustomerHeader renders correctly, when worked history label is present 1`] = `
+<div
+  data-testid="CustomerHeaderTestId"
+>
+  <div
+    className=""
+  >
+    <div
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      component="h2"
+      data-testid="Typography"
+      variant="h5"
+    >
+      Customer Information
+    </div>
+    <div>
+      <div
+        data-testid="Typography"
+        display="inline"
+        variant="body1"
+      >
+        Customer Name
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className=""
+          data-testid="customerNameTestId"
+        >
+          <div
+            data-testid="Typography"
+            display="inline"
+            variant="body1"
+          >
+            * 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <div>
+      <div
+        data-testid="Typography"
+        display="inline"
+        variant="body1"
+      >
+        Customer Alerts 
+        
+      </div>
+      <div
+        data-testid="customerAlertTestId"
+      />
+    </div>
+    <div>
+      <div>
+        <div
+          color="primary"
+          data-testid="assignAlertButtonTestId"
+          onClick={[Function]}
+          size="large"
+          variant="contained"
+        >
+          Assign Alert
+        </div>
+      </div>
+      <div>
+        <div
+          classes={
+            Object {
+              "paper": undefined,
+            }
+          }
+          data-testid="RACCard"
+          defaultValue=""
+          inputLabel="Route"
+          isDisabled={false}
+          loading={false}
+          onChange={[Function]}
+          options={Array []}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

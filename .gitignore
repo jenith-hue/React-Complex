@@ -1,0 +1,17 @@
+*.sublime-*
+.idea
+settings.json
+
+# production
+/build
+/dist
+.npmrc
+
+# testing
+/coverage
+
+/node_modules
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

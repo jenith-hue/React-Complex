@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerInformation renders correctly 1`] = `
+<div
+  accordionProps={
+    Object {
+      "classes": Object {
+        "root": undefined,
+      },
+    }
+  }
+  data-testid="RACAccordion"
+  details={<CustomerInformationDetails />}
+  summaryProps={
+    Object {
+      "classes": Object {
+        "content": undefined,
+        "root": undefined,
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentToPrint renders correctly, when letter array is empty 1`] = `
+<div
+  className="allLettersContainer"
+/>
+`;
+
+exports[`ComponentToPrint renders correctly, when multiple letters are present 1`] = `
+<div
+  className="allLettersContainer"
+>
+  <span>
+    <div
+      className="halfwayNoticeContainer"
+    >
+      <div
+        className="section alignLeft"
+      >
+        <div
+          align="left"
+          data-testid="Typography"
+          variant="h6"
+        >
+          Rent-A-Center, Inc.
+        </div>
+      </div>
+      <div
+        className="section headerMetadata"
+      >
+        <div
+          align="left"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h6"
+        >
+          1322 S BUCKNER BLVD
+        </div>
+        <div
+          align="left"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h6"
+        >
+          DALLAS, Texas, 75217-1701
+        </div>
+        <div
+          align="left"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h6"
+        >
+          (214) 398-5174
+        </div>
+        <div
+          align="left"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h6"
+        >
+          Marissa Horn
+        </div>
+        <div
+          align="left"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h6"
+        >
+          18777 Midway RD, APT 401
+        </div>
+        <div
+          align="left"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h6"
+        >
+          DALLAS, Texas, 75287-2715
+        </div>
+      </div>
+      <div
+        className="section alignLeft"
+      >
+        <div
+          align="center"
+          className="paragraph"
+          data-testid="Typography"
+          variant="h5"
+        >
+          5-Day Demand Notice For Return of Rented Property
+        </div>
+        <div>
+          <div
+            align="left"
+            data-testid="Typography"
+            display="inline"
+            variant="h5"
+          >
+            Date Rental Agreement Expired:
+          </div>
+          <div
+            align="left"
+            className="underline"
+            data-testid="Typography"
+            display="inline"
+            variant="h6"
+          >
+             08-12-2021
+          </div>
+        </div>
+        <div>
+          <div
+            align="left"
+            data-testid="Typography"
+            display="inline"
+            variant="h5"
+          >
+            Date of Notice:
+          </div>
+          <div
+            align="left"
+            className="underline"
+            data-testid="Typography"
+            display="inline"
+            variant="h6"
+          >
+             08-22-2021
+          </div>
+        </div>
+        <div>
+          <div
+            align="left"
+            data-testid="Typography"
+            display="inline"
+            variant="h5"
+          >
+            Deadline to Return Property:
+          </div>
+          <div
+            align="left"
+            className="underline"
+            data-testid="Typography"
+            display="inline"
+            variant="h6"
+          >
+             08-27-2021 
+          </div>
+          <div
+            align="left"
+            data-testid="Typography"
+            display="inline"
+            variant="h6"
+          >
+            ( if a Sunday or a holiday, then the next business day).
+          </div>
+        </div>
+        <div
+          className="paragraph"
+        >
+          <div
+            align="left"
+            data-testid="Typography"
+            display="inline"
+            variant="h6"
+          >
+            To:
+          </div>
+          <div
+            align="left"
+            className="underline"
+            data-testid="Typography"
+            display="inline"
+            variant="h6"
+          >
+             Marissa Horn
+          </div>
+        </div>
+        <div
+          className="paragraph"
+        >
+          <div
+            align="left"
+            data-testid="Typography"
+            variant="h6"
+          >
+            Your rental agreement expired more than 15 days ago when you failed to make a renewal payment. Nevertheless, you have refused to either renew your agreement or make arrangements to return our property to our store.
+          </div>
+        </div>
+        <div
+          className="paragraph"
+        >
+          <div
+            align="left"
+            data-testid="Typography"
+            variant="h6"
+          >
+            You must either return the rented property to our store or contact me at the above phone number to schedule a pick up time. We must receive the property no later than 5:00 p.m.on the above deadline date. This is consistent with our legal rights under your rental agreement.
+          </div>
+        </div>
+        <div
+          className="paragraph"
+        >
+          <div
+            align="left"
+            data-testid="Typography"
+            variant="h6"
+          >
+            Do not underestimate the seriousness of this situation. Please call the Store Manager at the above phone number to discuss the many options we have available to successfully resolve this matter. We anticipate your visit or call soon.
+          </div>
+        </div>
+      </div>
+      <div
+        className="paragraph"
+      >
+        <div
+          align="left"
+          data-testid="Typography"
+          variant="h6"
+        >
+          Sincerely,
+        </div>
+        <div
+          align="left"
+          className="underline"
+          data-testid="Typography"
+          variant="h6"
+        />
+        <div
+          align="left"
+          data-testid="Typography"
+          variant="h6"
+        >
+          Store Manager
+        </div>
+      </div>
+    </div>
+    <div
+      className="breakPage"
+    >
+       
+    </div>
+  </span>
+</div>
+`;

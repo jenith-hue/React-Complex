@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInformation renders correctly 1`] = `
+<div
+  className="contactInformationRoot"
+>
+  <div
+    className="row"
+  >
+    <div
+      data-testid="Typography"
+      noWrap={true}
+      variant="h4"
+    >
+      Contact Information
+    </div>
+    <div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Due Date:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h6"
+        >
+          
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Days Past Due:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h6"
+        >
+          
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Amount Due:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h5"
+        >
+          $
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="RACCard"
+  >
+    <div
+      className="cardContentContainer"
+    >
+      <div
+        classes={
+          Object {
+            "tabPanel": "tabPanel",
+          }
+        }
+        contentForTabs={
+          Array [
+            <ContactInformationCustomerContent
+              onError={[Function]}
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationCoCustomerContent
+              onError={[Function]}
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationReferencesContent
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationEmployerContent
+              onLogClicked={[Function]}
+            />,
+          ]
+        }
+        data-testid="RACTabs"
+        defaultValue={0}
+        disabledTabs={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+        tabs={
+          Array [
+            "Customer",
+            "Co-Customer",
+            "References",
+            "Employer",
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContactInformation renders with api error modal 1`] = `
+<div
+  className="contactInformationRoot"
+>
+  <div
+    buttons={
+      <React.Fragment>
+        <Button
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          OK
+        </Button>
+      </React.Fragment>
+    }
+    classes={
+      Object {
+        "dialog": undefined,
+        "dialogActions": undefined,
+        "dialogContent": undefined,
+      }
+    }
+    content={
+      <ApiErrorModalContent
+        message="Unable to log activity. Please try again later."
+      />
+    }
+    data-testid="RACModal"
+    isOpen={true}
+    maxWidth="sm"
+    onClose={[Function]}
+    title=""
+    titleVariant="h4"
+  />
+  <div
+    className="row"
+  >
+    <div
+      data-testid="Typography"
+      noWrap={true}
+      variant="h4"
+    >
+      Contact Information
+    </div>
+    <div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Due Date:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h6"
+        >
+          
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Days Past Due:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h6"
+        >
+          
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Amount Due:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h5"
+        >
+          $
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="RACCard"
+  >
+    <div
+      className="cardContentContainer"
+    >
+      <div
+        classes={
+          Object {
+            "tabPanel": "tabPanel",
+          }
+        }
+        contentForTabs={
+          Array [
+            <ContactInformationCustomerContent
+              onError={[Function]}
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationCoCustomerContent
+              onError={[Function]}
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationReferencesContent
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationEmployerContent
+              onLogClicked={[Function]}
+            />,
+          ]
+        }
+        data-testid="RACTabs"
+        defaultValue={0}
+        disabledTabs={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+        tabs={
+          Array [
+            "Customer",
+            "Co-Customer",
+            "References",
+            "Employer",
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ContactInformation renders with log activity modal 1`] = `
+<div
+  className="contactInformationRoot"
+>
+  <div
+    className="row"
+  >
+    <div
+      data-testid="Typography"
+      noWrap={true}
+      variant="h4"
+    >
+      Contact Information
+    </div>
+    <div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Due Date:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h6"
+        >
+          
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Days Past Due:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h6"
+        >
+          
+        </div>
+      </div>
+      <div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="body1"
+        >
+          Amount Due:
+           
+        </div>
+        <div
+          data-testid="Typography"
+          display="inline"
+          variant="h5"
+        >
+          $
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="RACCard"
+  >
+    <div
+      className="cardContentContainer"
+    >
+      <div
+        data-testid="LogActivityModal"
+        onClose={[Function]}
+        onSave={[Function]}
+        open={true}
+      />
+      <div
+        classes={
+          Object {
+            "tabPanel": "tabPanel",
+          }
+        }
+        contentForTabs={
+          Array [
+            <ContactInformationCustomerContent
+              onError={[Function]}
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationCoCustomerContent
+              onError={[Function]}
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationReferencesContent
+              onLogClicked={[Function]}
+            />,
+            <ContactInformationEmployerContent
+              onLogClicked={[Function]}
+            />,
+          ]
+        }
+        data-testid="RACTabs"
+        defaultValue={0}
+        disabledTabs={
+          Array [
+            1,
+            2,
+            3,
+          ]
+        }
+        tabs={
+          Array [
+            "Customer",
+            "Co-Customer",
+            "References",
+            "Employer",
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

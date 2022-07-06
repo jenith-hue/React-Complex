@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HalfwayNoticeLetter renders correctly 1`] = `
+<div
+  buttons={
+    <React.Fragment>
+      <RACButton
+        color="secondary"
+        onClick={[MockFunction]}
+        variant="outlined"
+      >
+        Cancel
+      </RACButton>
+      <UNDEFINED
+        content={[Function]}
+        onAfterPrint={[MockFunction]}
+        trigger={[Function]}
+      />
+    </React.Fragment>
+  }
+  classes={
+    Object {
+      "dialog": undefined,
+      "dialogActions": undefined,
+      "dialogContent": undefined,
+    }
+  }
+  content={
+    <div>
+      <ComponentToPrint
+        printLetterDetails={Object {}}
+      />
+    </div>
+  }
+  data-testid="RACModal"
+  isOpen={true}
+  maxWidth="lg"
+  onClose={[MockFunction]}
+  title="Print preview"
+/>
+`;

@@ -1,0 +1,95 @@
+{
+  "storeNumber": "03770",
+  "accountActivities": [
+    {
+      "activityDate": "2021-05-31T00:04:21.0-0500",
+      "customerId": "123456",
+      "customerFirstName": "Tory",
+      "customerLastName": "Smith",
+      "route": {
+        "code": "73",
+        "description": "Route 73"
+      },
+      "callDate": "2021-05-31T00:04:21.0-0500",
+      "phoneNumberDialed": "469-222-4441",
+      "callResultType": {
+        "code": "NA",
+        "description": "No Answer"
+      },
+      "accountActivityType": {
+        "code": "CMTTK",
+        "description": "Commitment Taken"
+      },
+      "accountActivitySubType": null,
+      "contactFirstName": "Sebastian",
+      "contactLastName": "Smith",
+      "relationshipType": {
+        "code": "SPO",
+        "description": "Spouse"
+      },
+      "pastDueDate": "2021-07-25",
+      "daysLate": "2",
+      "coWorker": {
+        "id": "236268",
+        "firstName": "Tim",
+        "lastName": "Sutton"
+      },
+      "commitment": {
+        "commitmentDate": "2021-05-31T00:04:21.0-0500",
+        "commitmentType": {
+          "code": "PY",
+          "description": "Payment"
+        },
+        "commitmentStatus": {
+          "code": "GD",
+          "description": "Good"
+        }
+      }
+    },
+    {
+      "activityDate": "2021-05-31T00:04:21.0-0500",
+      "customerId": "123456",
+      "customerFirstName": "Tory",
+      "customerLastName": "Smith",
+      "route": {
+        "code": "73",
+        "description": "Route 73"
+      },
+      "callDate": "2021-05-31T00:04:21.0-0500",
+      "phoneNumberDialed": "469-222-4441",
+      "callResultType": {
+        "code": "NA",
+        "description": "No Answer"
+      },
+      "accountActivityType": {
+        "code": "CMTTK",
+        "description": "Commitment Taken"
+      },
+      "accountActivitySubType": null,
+      "contactFirstName": "Sebastian",
+      "contactLastName": "Smith",
+      "relationshipType": {
+        "code": "SPO",
+        "description": "Spouse"
+      },
+      "pastDueDate": "2021-07-25",
+      "daysLate": "2",
+      "coWorker": {
+        "id": "236268",
+        "firstName": "Tim",
+        "lastName": "Sutton"
+      },
+      "commitment": {
+        "commitmentDate": "2021-05-31T00:04:21.0-0500",
+        "commitmentType": {
+          "code": "PY",
+          "description": "Payment"
+        },
+        "commitmentStatus": {
+          "code": "GD",
+          "description": "Good"
+        }
+      }
+    }
+  ]
+}

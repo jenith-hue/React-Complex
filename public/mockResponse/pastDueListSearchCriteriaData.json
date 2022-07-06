@@ -1,0 +1,28 @@
+{
+    "referenceDetails": [
+        {
+            "referenceCode": "OPT3",
+            "displaySeq": 3,
+            "defaultValue": "0",
+            "description": "Option 3"
+         },
+         {
+            "referenceCode": "OPT4",
+            "displaySeq": 4,
+            "defaultValue": "0",
+            "description": "Option 4"
+         },
+         {
+            "referenceCode": "OPT2",
+            "displaySeq": 2,
+            "defaultValue": "0",
+            "description": "Option 2"
+         },
+         {
+            "referenceCode": "OPT1",
+            "displaySeq": 1,
+            "defaultValue": "0",
+            "description": "Option 1"
+         }
+    ]
+}

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContanctInformationEmployerContent renders correctly 1`] = `
+<div
+  data-testid="RACTable"
+>
+  <div
+    id="table-head"
+  >
+    <div
+      data-testid="RACTableCell"
+    >
+      Company Name
+    </div>
+    <div
+      data-testid="RACTableCell"
+    >
+      Employer Phone Number
+    </div>
+    <div
+      data-testid="RACTableCell"
+    >
+      # Contacts Today
+    </div>
+    <div
+      data-testid="RACTableCell"
+    >
+      Last Call Result
+    </div>
+    <div
+      align="center"
+      data-testid="RACTableCell"
+    >
+      Action
+    </div>
+  </div>
+  <div
+    id="table-content"
+  >
+    <div
+      backgroundColor="white"
+      data-testid="RACTableRow"
+    >
+      <div
+        data-testid="RACTableCell"
+      >
+        <div
+          data-testid="Typography"
+          variant="body2"
+        >
+          Employer name
+        </div>
+      </div>
+      <div
+        data-testid="RACTableCell"
+      >
+        <div
+          data-testid="Typography"
+          variant="body2"
+        >
+          (***) ***-****
+        </div>
+      </div>
+      <div
+        data-testid="RACTableCell"
+      >
+        <div
+          align="center"
+          data-testid="Typography"
+          variant="body2"
+        >
+          123
+        </div>
+      </div>
+      <div
+        data-testid="RACTableCell"
+      >
+        <div
+          color="primary"
+          data-testid="Typography"
+          noWrap={true}
+          variant="body2"
+        >
+          <div
+            data-testid="RACTooltip"
+            title="Last call result description"
+          >
+            <span>
+              Last call res...
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="RACTableCell"
+      >
+        <div
+          color="primary"
+          data-testid="RACButton"
+          disabled={true}
+          onClick={[Function]}
+          variant="outlined"
+        >
+          Log
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

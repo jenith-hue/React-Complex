@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkedHistoryNotesModal should render correctly 1`] = `
+<div
+  buttons={
+    <React.Fragment>
+      <RACButton
+        color="primary"
+        onClick={[MockFunction]}
+        variant="contained"
+      >
+        OK
+      </RACButton>
+    </React.Fragment>
+  }
+  classes={
+    Object {
+      "dialog": "dialogRoot",
+      "dialogActions": "dialogActions",
+      "dialogContent": "dialogContent",
+    }
+  }
+  content={
+    <WorkedHistoryNotesModalContent
+      noteText="NTXT"
+      workedResultText="WRTXT"
+    />
+  }
+  data-testid="RACModal"
+  isOpen={true}
+  maxWidth="sm"
+  onClose={[MockFunction]}
+  title=""
+  titleVariant="h4"
+/>
+`;

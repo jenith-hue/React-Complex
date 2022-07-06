@@ -1,0 +1,813 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity Log Filters renders inputs with values from context 1`] = `
+<div
+  className="filtersRoot"
+>
+  <div
+    className="card"
+    data-testid="RACCard"
+  >
+    <div
+      className="cardBody"
+    >
+      <div
+        className="row"
+      >
+        <div
+          container={true}
+          data-testid="Grid"
+          spacing={3}
+        >
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Days late 1",
+                ]
+              }
+              inputLabel="Days Late"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "Days late 1",
+                    "displaySeq": 1,
+                    "label": "Days late 1",
+                    "referenceCode": "1",
+                    "value": "Days late 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              classes={
+                Object {
+                  "paper": "selectOptionsPaper",
+                }
+              }
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Route 1",
+                ]
+              }
+              inputLabel="Route"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Route 1",
+                    "routeCode": "1",
+                    "routeDescription": "1",
+                    "value": "Route 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Coworker 1",
+                ]
+              }
+              inputLabel="Coworker"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Coworker 1",
+                    "roleCode": "1",
+                    "roleDescription": "Coworker 1",
+                    "value": "Coworker 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "A/M activity 1",
+                ]
+              }
+              inputLabel="A/M Activity"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "A/M activity 1",
+                    "displaySeq": 1,
+                    "label": "A/M activity 1",
+                    "referenceCode": "1",
+                    "value": "A/M activity 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Phone type 1",
+                ]
+              }
+              inputLabel="Phone"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "Phone type 1",
+                    "displaySeq": 1,
+                    "label": "Phone type 1",
+                    "referenceCode": "1",
+                    "value": "Phone type 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Language option 1",
+                ]
+              }
+              inputLabel="Language"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "1",
+                    "displaySeq": 1,
+                    "label": "Language option 1",
+                    "referenceCode": "1",
+                    "value": "Language option 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={5}
+            md={6}
+          >
+            <div
+              data-testid="Divider"
+              flexItem={true}
+              orientation="vertical"
+            />
+            <div
+              className="centerVertically"
+            >
+              <div
+                className="multipleElementsInGridTitle"
+                data-testid="Typography"
+                variant="body1"
+              >
+                Date Range
+              </div>
+              <div
+                checked={true}
+                classes={
+                  Object {
+                    "checkbox": "noPaddingLeft",
+                  }
+                }
+                data-testid="RACCheckBox"
+                label="All"
+                onChange={[Function]}
+                size="medium"
+              />
+            </div>
+            <div
+              className="multipleElementsInGrid"
+            >
+              <div
+                className=""
+              >
+                <div
+                  data-testid="RACDateRangePicker"
+                  disabled={true}
+                  fromErrorMessage=""
+                  fromLabel="From"
+                  fromValue="Date range from"
+                  maxFrom="2024-08-07"
+                  maxTo="2024-08-07"
+                  minFrom="2024-08-07"
+                  minTo="2024-08-07"
+                  name="dateRange"
+                  onFromChanged={[Function]}
+                  onToChanged={[Function]}
+                  toErrorMessage=""
+                  toLabel="To"
+                  toValue="Date range to"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={5}
+            md={6}
+          >
+            <div
+              data-testid="Divider"
+              flexItem={true}
+              orientation="vertical"
+            />
+            <div
+              className="centerVertically"
+            >
+              <div
+                className="multipleElementsInGridTitle"
+                data-testid="Typography"
+                variant="body1"
+              >
+                Time Range
+              </div>
+              <div
+                checked={true}
+                classes={
+                  Object {
+                    "checkbox": "noPaddingLeft",
+                  }
+                }
+                data-testid="RACCheckBox"
+                label="All"
+                onChange={[Function]}
+                size="medium"
+              />
+            </div>
+            <div
+              className="multipleElementsInGrid"
+            >
+              <div
+                className=""
+              >
+                <div
+                  data-testid="RACTimeRangePicker"
+                  disabled={true}
+                  fromErrorMessage=""
+                  fromLabel="From"
+                  fromValue="Time range from"
+                  onFromChanged={[Function]}
+                  onToChanged={[Function]}
+                  toErrorMessage=""
+                  toLabel="To"
+                  toValue="Time range to"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "buttonContainer",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={12}
+            md={12}
+            sm={12}
+            xs={12}
+          >
+            <div
+              color="primary"
+              data-testid="RACButton"
+              onClick={[Function]}
+              size="large"
+              variant="text"
+            >
+              Clear
+            </div>
+            <div
+              color="primary"
+              data-testid="RACButton"
+              onClick={[Function]}
+              size="large"
+              variant="contained"
+            >
+              Apply
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Activity Log Filters renders inputs with values from context, even when filters are not open 1`] = `
+<div
+  className="filtersRoot"
+>
+  <div
+    className="card"
+    data-testid="RACCard"
+  >
+    <div
+      className="cardBody"
+    >
+      <div
+        className="row"
+      >
+        <div
+          container={true}
+          data-testid="Grid"
+          spacing={3}
+        >
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Days late 1",
+                ]
+              }
+              inputLabel="Days Late"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "Days late 1",
+                    "displaySeq": 1,
+                    "label": "Days late 1",
+                    "referenceCode": "1",
+                    "value": "Days late 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              classes={
+                Object {
+                  "paper": "selectOptionsPaper",
+                }
+              }
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Route 1",
+                ]
+              }
+              inputLabel="Route"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Route 1",
+                    "routeCode": "1",
+                    "routeDescription": "1",
+                    "value": "Route 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Coworker 1",
+                ]
+              }
+              inputLabel="Coworker"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Coworker 1",
+                    "roleCode": "1",
+                    "roleDescription": "Coworker 1",
+                    "value": "Coworker 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "A/M activity 1",
+                ]
+              }
+              inputLabel="A/M Activity"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "A/M activity 1",
+                    "displaySeq": 1,
+                    "label": "A/M activity 1",
+                    "referenceCode": "1",
+                    "value": "A/M activity 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Phone type 1",
+                ]
+              }
+              inputLabel="Phone"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "Phone type 1",
+                    "displaySeq": 1,
+                    "label": "Phone type 1",
+                    "referenceCode": "1",
+                    "value": "Phone type 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={2}
+            md={3}
+            sm={3}
+            xs={6}
+          >
+            <div
+              data-testid="RACSelect"
+              defaultValue={
+                Array [
+                  "Language option 1",
+                ]
+              }
+              inputLabel="Language"
+              multiple={true}
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "defaultValue": "1",
+                    "description": "1",
+                    "displaySeq": 1,
+                    "label": "Language option 1",
+                    "referenceCode": "1",
+                    "value": "Language option 1",
+                  },
+                ]
+              }
+            />
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={5}
+            md={6}
+          >
+            <div
+              data-testid="Divider"
+              flexItem={true}
+              orientation="vertical"
+            />
+            <div
+              className="centerVertically"
+            >
+              <div
+                className="multipleElementsInGridTitle"
+                data-testid="Typography"
+                variant="body1"
+              >
+                Date Range
+              </div>
+              <div
+                checked={true}
+                classes={
+                  Object {
+                    "checkbox": "noPaddingLeft",
+                  }
+                }
+                data-testid="RACCheckBox"
+                label="All"
+                onChange={[Function]}
+                size="medium"
+              />
+            </div>
+            <div
+              className="multipleElementsInGrid"
+            >
+              <div
+                className=""
+              >
+                <div
+                  data-testid="RACDateRangePicker"
+                  disabled={true}
+                  fromErrorMessage=""
+                  fromLabel="From"
+                  fromValue="Date range from"
+                  maxFrom="2024-08-07"
+                  maxTo="2024-08-07"
+                  minFrom="2024-08-07"
+                  minTo="2024-08-07"
+                  name="dateRange"
+                  onFromChanged={[Function]}
+                  onToChanged={[Function]}
+                  toErrorMessage=""
+                  toLabel="To"
+                  toValue="Date range to"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "grid",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={5}
+            md={6}
+          >
+            <div
+              data-testid="Divider"
+              flexItem={true}
+              orientation="vertical"
+            />
+            <div
+              className="centerVertically"
+            >
+              <div
+                className="multipleElementsInGridTitle"
+                data-testid="Typography"
+                variant="body1"
+              >
+                Time Range
+              </div>
+              <div
+                checked={true}
+                classes={
+                  Object {
+                    "checkbox": "noPaddingLeft",
+                  }
+                }
+                data-testid="RACCheckBox"
+                label="All"
+                onChange={[Function]}
+                size="medium"
+              />
+            </div>
+            <div
+              className="multipleElementsInGrid"
+            >
+              <div
+                className=""
+              >
+                <div
+                  data-testid="RACTimeRangePicker"
+                  disabled={true}
+                  fromErrorMessage=""
+                  fromLabel="From"
+                  fromValue="Time range from"
+                  onFromChanged={[Function]}
+                  onToChanged={[Function]}
+                  toErrorMessage=""
+                  toLabel="To"
+                  toValue="Time range to"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            classes={
+              Object {
+                "root": "buttonContainer",
+              }
+            }
+            data-testid="Grid"
+            item={true}
+            lg={12}
+            md={12}
+            sm={12}
+            xs={12}
+          >
+            <div
+              color="primary"
+              data-testid="RACButton"
+              onClick={[Function]}
+              size="large"
+              variant="text"
+            >
+              Clear
+            </div>
+            <div
+              color="primary"
+              data-testid="RACButton"
+              onClick={[Function]}
+              size="large"
+              variant="contained"
+            >
+              Apply
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

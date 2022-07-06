@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextTemplateContent renders correctly 1`] = `
+Array [
+  <div
+    className="textTemplateLeftPannel"
+  >
+    <div
+      className="categoryListContainer"
+    >
+      <span
+        className="categoryListTitle"
+      >
+        CATEGORY
+      </span>
+      <div>
+        <span
+          className="categoryListItem active"
+          onClick={[Function]}
+        >
+          category1
+        </span>
+        <span
+          className="categoryListItem"
+          onClick={[Function]}
+        >
+          category2
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="textTemplateRightPannel"
+  >
+    <div
+      className="quickPhaseContainer"
+    >
+      <div
+        className="quickPhaseHeader"
+        data-testid="Typography"
+        variant="h5"
+      >
+        Quick Phrase
+      </div>
+      <div>
+        <div
+          checked={true}
+          classes={
+            Object {
+              "checked": "quickPhaseInput",
+              "label": "quickPhaseInputLabel",
+            }
+          }
+          data-testid="RACModal"
+          label="title11"
+          name="title11"
+          onChange={[Function]}
+          value="title11"
+        />
+        <div
+          checked={false}
+          classes={
+            Object {
+              "checked": "quickPhaseInput",
+              "label": "quickPhaseInputLabel",
+            }
+          }
+          data-testid="RACModal"
+          label="title12"
+          name="title12"
+          onChange={[Function]}
+          value="title12"
+        />
+      </div>
+      <div
+        className="generatedTextLabel"
+        data-testid="Typography"
+        variant="h5"
+      >
+        Generated Text
+      </div>
+      <span
+        className="generatedTextValue"
+      >
+        message11
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextTemplateModal renders correctly 1`] = `
+<div
+  buttons={
+    <React.Fragment>
+      <RACButton
+        color="secondary"
+        onClick={[Function]}
+        variant="outlined"
+      >
+        Cancel
+      </RACButton>
+      <RACButton
+        color="primary"
+        disabled={false}
+        onClick={[Function]}
+        variant="contained"
+      >
+        Send
+      </RACButton>
+    </React.Fragment>
+  }
+  classes={
+    Object {
+      "dialog": "dialogRoot",
+      "dialogContent": "dialogContent",
+    }
+  }
+  content={
+    <TextTemplateContent
+      onCategoryChange={[Function]}
+      onQuickPhaseChange={[Function]}
+    />
+  }
+  data-testid="RACModal"
+  isOpen={true}
+  maxWidth="md"
+  onClose={[Function]}
+  title="Text Templates"
+/>
+`;

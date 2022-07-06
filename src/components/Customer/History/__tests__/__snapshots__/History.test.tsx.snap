@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`History renders correctly 1`] = `
+<div
+  data-testid="historyDatatestId"
+>
+  <div>
+    <div
+      contentForTabs={
+        Array [
+          <WorkedHistory />,
+          <PaymentHistoryProvider>
+            <CurrentPaymentHistory />
+          </PaymentHistoryProvider>,
+          <AgreementInfoProvider>
+            <AgreementInfo />
+          </AgreementInfoProvider>,
+        ]
+      }
+      data-testid="RACTabs"
+      defaultValue={0}
+      loadAllTabContentOnMount={true}
+      tabs={
+        Array [
+          "Worked History",
+          "Payment History",
+          "Agreement Information",
+        ]
+      }
+    />
+  </div>
+</div>
+`;

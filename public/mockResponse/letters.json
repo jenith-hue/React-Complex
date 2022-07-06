@@ -1,0 +1,26 @@
+{
+    "letters": [
+        {
+            "storeMetadata":
+              "1105 SOUTH JOSEY LANECARROLLTON, Texas, 75006-7320(972) 416-1757",
+            "customerMetadata":
+              "MARISSA HORN18777 MIDWAY RD, APT 401DALLAS, Texas, 75287-2715",
+            "dateRentalAgreementExpired": "07/19/2021",
+            "dateOfNotice": "07/19/2021",
+            "deadlineToReturnProperty": "07/19/2021",
+            "customerName": "Marissa Mock",
+            "storeManagerName": "John Mock"
+          },
+          {
+            "storeMetadata":
+              "1105 SOUTH JOSEY LANECARROLLTON, Texas, 75006-7320(972) 416-1757",
+            "customerMetadata":
+              "MARISSA HORN18777 MIDWAY RD, APT 401DALLAS, Texas, 75287-2715",
+            "dateRentalAgreementExpired": "07/19/2021",
+            "dateOfNotice": "07/19/2021",
+            "deadlineToReturnProperty": "07/19/2021",
+            "customerName": "Mock Horn",
+            "storeManagerName": "Mock Doe"
+          }
+    ]
+}

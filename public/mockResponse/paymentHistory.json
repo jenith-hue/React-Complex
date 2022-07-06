@@ -1,0 +1,172 @@
+{
+    "customerId": "123456",
+    "pageInfo": {
+       "pageSize": "50",
+       "startingPage": "1",
+       "totalPages": "5",
+       "total": "50"
+    },
+    "payments": [
+       {
+          "storeNumber": "03770",
+          "paymentDate": "2021-05-08",
+          "receiptDate": "2021-05-08T12:54:27",
+          "receiptId": "9999646083762",
+          "receiptTransactionType": {
+             "code": "P",
+             "description": "Payment"
+          },
+          "paymentAmount": "116.98",
+          "nextDueDate": "2021-06-08",
+          "agreementId": "1234567",
+          "agreementNumber": "08976767956",
+          "daysExtension": "0",
+          "daysLate": "0",
+          "paymentOrigin": {
+             "code": "A",
+             "description": "AutoPay"
+          },
+          "paymentMethodType": ["CC", "CASH"],
+          "netRentalRevenue": "92.77",
+          "clubPayment": "6.00"
+       },
+       {
+        "storeNumber": "03770",
+        "paymentDate": "2021-05-08",
+        "receiptDate": "2021-05-08T12:54:27",
+        "receiptId": "9999646083762",
+        "receiptTransactionType": {
+           "code": "P",
+           "description": "Payment"
+        },
+        "paymentAmount": "116.98",
+        "nextDueDate": "2021-06-08",
+        "agreementId": "1234567",
+        "agreementNumber": "08976767956",
+        "daysExtension": "0",
+        "daysLate": "0",
+        "paymentOrigin": {
+           "code": "A",
+           "description": "AutoPay"
+        },
+        "paymentMethodType": ["CC", "CASH"],
+        "netRentalRevenue": "92.77",
+        "clubPayment": "6.00"
+     },
+     {
+        "storeNumber": "03770",
+        "paymentDate": "2021-05-08",
+        "receiptDate": "2021-05-08T12:54:27",
+        "receiptId": "9999646083762",
+        "receiptTransactionType": {
+           "code": "P",
+           "description": "Payment"
+        },
+        "paymentAmount": "116.98",
+        "nextDueDate": "2021-06-08",
+        "agreementId": "1234567",
+        "agreementNumber": "08976767956",
+        "daysExtension": "0",
+        "daysLate": "0",
+        "paymentOrigin": {
+           "code": "A",
+           "description": "AutoPay"
+        },
+        "paymentMethodType": ["CC", "CASH"],
+        "netRentalRevenue": "92.77",
+        "clubPayment": "6.00"
+     },
+     {
+        "storeNumber": "03770",
+        "paymentDate": "2021-05-08",
+        "receiptDate": "2021-05-08T12:54:27",
+        "receiptId": "9999646083762",
+        "receiptTransactionType": {
+           "code": "P",
+           "description": "Payment"
+        },
+        "paymentAmount": "116.98",
+        "nextDueDate": "2021-06-08",
+        "agreementId": "1234567",
+        "agreementNumber": "08976767956",
+        "daysExtension": "0",
+        "daysLate": "0",
+        "paymentOrigin": {
+           "code": "A",
+           "description": "AutoPay"
+        },
+        "paymentMethodType": ["CC", "CASH"],
+        "netRentalRevenue": "92.77",
+        "clubPayment": "6.00"
+     },
+     {
+        "storeNumber": "03770",
+        "paymentDate": "2021-05-08",
+        "receiptDate": "2021-05-08T12:54:27",
+        "receiptId": "9999646083762",
+        "receiptTransactionType": {
+           "code": "P",
+           "description": "Payment"
+        },
+        "paymentAmount": "116.98",
+        "nextDueDate": "2021-06-08",
+        "agreementId": "1234567",
+        "agreementNumber": "08976767956",
+        "daysExtension": "0",
+        "daysLate": "0",
+        "paymentOrigin": {
+           "code": "A",
+           "description": "AutoPay"
+        },
+        "paymentMethodType": ["CC", "CASH"],
+        "netRentalRevenue": "92.77",
+        "clubPayment": "6.00"
+     },
+     {
+        "storeNumber": "03770",
+        "paymentDate": "2021-05-08",
+        "receiptDate": "2021-05-08T12:54:27",
+        "receiptId": "9999646083762",
+        "receiptTransactionType": {
+           "code": "P",
+           "description": "Payment"
+        },
+        "paymentAmount": "116.98",
+        "nextDueDate": "2021-06-08",
+        "agreementId": "1234567",
+        "agreementNumber": "08976767956",
+        "daysExtension": "0",
+        "daysLate": "0",
+        "paymentOrigin": {
+           "code": "A",
+           "description": "AutoPay"
+        },
+        "paymentMethodType": ["CC", "CASH"],
+        "netRentalRevenue": "92.77",
+        "clubPayment": "6.00"
+     },
+     {
+        "storeNumber": "03770",
+        "paymentDate": "2021-05-08",
+        "receiptDate": "2021-05-08T12:54:27",
+        "receiptId": "9999646083762",
+        "receiptTransactionType": {
+           "code": "P",
+           "description": "Payment"
+        },
+        "paymentAmount": "116.98",
+        "nextDueDate": "2021-06-08",
+        "agreementId": "1234567",
+        "agreementNumber": "08976767956",
+        "daysExtension": "0",
+        "daysLate": "0",
+        "paymentOrigin": {
+           "code": "A",
+           "description": "AutoPay"
+        },
+        "paymentMethodType": ["CC", "CASH"],
+        "netRentalRevenue": "92.77",
+        "clubPayment": "6.00"
+     }
+    ]
+ }

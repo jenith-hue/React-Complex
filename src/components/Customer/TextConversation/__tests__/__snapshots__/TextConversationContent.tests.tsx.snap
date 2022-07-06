@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextConversationContent renders correctly 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="body"
+  >
+    <div>
+      <div
+        align="center"
+        data-testid="Typography"
+        variant="body1"
+      >
+        10/10/2010 11:00
+      </div>
+      <div
+        avatarText="AB"
+        data-testid="RACTextConversationMessage"
+        isOwnMessage={true}
+        message="Hi"
+      />
+    </div>
+    <div>
+      <div
+        align="center"
+        data-testid="Typography"
+        variant="body1"
+      >
+        10/10/2010 11:50
+      </div>
+      <div
+        avatarText="JD"
+        data-testid="RACTextConversationMessage"
+        isOwnMessage={false}
+        message="Hi 2"
+      />
+    </div>
+  </div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerItem"
+    >
+      <div
+        align="left"
+        data-testid="Typography"
+        variant="h5"
+      >
+        Name
+      </div>
+      <div
+        align="left"
+        className="headerItemValue"
+        data-testid="Typography"
+        variant="body1"
+      >
+        Full name
+      </div>
+    </div>
+    <div
+      className="headerItem"
+    >
+      <div
+        align="left"
+        data-testid="Typography"
+        variant="h5"
+      >
+        Phone
+      </div>
+      <div
+        data-testid="RACSelect"
+        defaultValue="value1"
+        isDisabled={false}
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "(lab) el1-",
+              "value": "value1",
+            },
+            Object {
+              "label": "(lab) el2-",
+              "value": "value2",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="headerItem"
+    >
+      <div
+        align="center"
+        data-testid="Typography"
+        variant="h5"
+      >
+        Type
+      </div>
+      <div
+        align="center"
+        className="headerItemValue"
+        data-testid="Typography"
+        variant="body1"
+      />
+    </div>
+    <div
+      className="headerItem"
+    >
+      <div
+        align="center"
+        data-testid="Typography"
+        variant="h5"
+      >
+        Language
+      </div>
+      <div
+        align="center"
+        className="headerItemValue"
+        data-testid="Typography"
+        variant="body1"
+      />
+    </div>
+  </div>
+  <div
+    buttons={
+      <React.Fragment>
+        <UNDEFINED
+          color="secondary"
+          onClick={[Function]}
+          variant="outlined"
+        >
+          Cancel
+        </UNDEFINED>
+        <UNDEFINED
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+          variant="contained"
+        >
+          Send
+        </UNDEFINED>
+      </React.Fragment>
+    }
+    classes={
+      Object {
+        "dialog": undefined,
+        "dialogContent": undefined,
+      }
+    }
+    content={
+      <TextTemplateContent
+        onCategoryChange={[Function]}
+        onQuickPhaseChange={[Function]}
+      />
+    }
+    data-testid="RACModal"
+    isOpen={false}
+    maxWidth="md"
+    onClose={[Function]}
+    title="Text Templates"
+  />
+  <div
+    data-testid="RACTextMessageInput"
+    isCommunicationAllowed={false}
+    onPreInputTextClicked={[Function]}
+    onSend={[Function]}
+    preInputText=" "
+  />
+</div>
+`;
